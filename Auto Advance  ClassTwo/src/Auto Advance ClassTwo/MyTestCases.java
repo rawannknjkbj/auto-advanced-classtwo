@@ -1,5 +1,5 @@
 //last try(12/4/2023)
-package myTestcases;
+package AutoAdvanceClassTwo;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

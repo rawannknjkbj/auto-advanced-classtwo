@@ -1,4 +1,4 @@
-package magentotestcases;
+package mytestcases;
 import java.util.Random;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

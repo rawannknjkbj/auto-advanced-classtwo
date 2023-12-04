@@ -36,7 +36,7 @@ public class myTestCases extends Parameters {
 	public void LogOutTest () throws InterruptedException {
 		driver.get(Logoutt);
 		Thread.sleep(7000);
-        softassert.assertEquals(driver.getCurrentUrl(), mainpage,"validation after the logout process");
+        softassert.assertEquals(driver.getCurrentUrl(), mainpage,"validation of the website url after the logout");
         softassert.assertAll();
 	}
 	@Test(priority = 3)
@@ -48,7 +48,7 @@ public class myTestCases extends Parameters {
 		emailInput.sendKeys(Email);
 		passwordInput.sendKeys(Password);
 		LogInButton.click();
-		softassert.assertEquals(driver.getCurrentUrl(), "validation after the login process");
+		softassert.assertEquals(driver.getCurrentUrl(), "validation of the website url after the login");
         softassert.assertAll();
 	}
 

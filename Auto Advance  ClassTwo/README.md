@@ -1,1 +1,1 @@
-"# magentolabAdvanced" 
+"#AutoAdvanceClassTwo

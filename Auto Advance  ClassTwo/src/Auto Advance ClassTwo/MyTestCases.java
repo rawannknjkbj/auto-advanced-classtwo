@@ -1,5 +1,5 @@
 //last try(12/4/2023)
-package MyTestcases;
+package myTestcases;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
